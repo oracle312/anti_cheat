@@ -1,0 +1,19 @@
+﻿  CRC.cpp
+C:\Users\ab1t3\Desktop\프로젝트\안티치트솔루션\AntiCheatSolution\AntiCheatSolution\CRC.cpp(40,62): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CRC_Detect.cpp
+  Detect_BD.cpp
+  Detect_Class.cpp
+  Detect_HBP.cpp
+  Detect_NtQSI.cpp
+  Detect_PID.cpp
+  Detect_SBP.cpp
+  Detect_Window.cpp
+  dllmain.cpp
+  Erase_PE.cpp
+     C:\Users\ab1t3\Desktop\프로젝트\안티치트솔루션\AntiCheatSolution\x64\Release\AntiCheatSolution.lib 라이브러리 및 C:\Users\ab1t3\Desktop\프로젝트\안티치트솔루션\AntiCheatSolution\x64\Release\AntiCheatSolution.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  4 of 54 functions ( 7.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  AntiCheatSolution.vcxproj -> C:\Users\ab1t3\Desktop\프로젝트\안티치트솔루션\AntiCheatSolution\x64\Release\AntiCheatSolution.dll
