@@ -1,0 +1,35 @@
+﻿  CRC.cpp
+  CRC_Detect.cpp
+  Detect_BD.cpp
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_BD.cpp(6,58): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [19]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_BD.cpp(6,20): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 'MessageBoxW' 선언을 참조하십시오.
+  Detect_Class.cpp
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_Class.cpp(8,71): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [19]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_Class.cpp(8,20): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 'MessageBoxW' 선언을 참조하십시오.
+  Detect_HBP.cpp
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_HBP.cpp(24,60): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [20]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_HBP.cpp(24,20): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 'MessageBoxW' 선언을 참조하십시오.
+  Detect_Memory.cpp
+  Detect_NtQSI.cpp
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_NtQSI.cpp(14,63): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': 인수 1을(를) 'const char [10]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_NtQSI.cpp(14,52): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(269,1): message : 'GetModuleHandleW' 선언을 참조하십시오.
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_NtQSI.cpp(17,56): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [14]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_NtQSI.cpp(17,20): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 'MessageBoxW' 선언을 참조하십시오.
+  Detect_PID.cpp
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_PID.cpp(15,7): error C2664: 'int strcmp(const char *,const char *)': 인수 1을(를) 'WCHAR [260]'에서 'const char *'(으)로 변환할 수 없습니다.
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_PID.cpp(15,19): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(100,13): message : 'strcmp' 선언을 참조하십시오.
+  Detect_SBP.cpp
+  Detect_Window.cpp
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_Window.cpp(8,73): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [20]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\ab1t3\Desktop\myGit\리버싱\안티치트\AntiCheat\AntiCheat\Detect_Window.cpp(8,20): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 'MessageBoxW' 선언을 참조하십시오.
+  dllmain.cpp
+  Erase_PE.cpp
+  Splash.cpp
+  Splash2.cpp
