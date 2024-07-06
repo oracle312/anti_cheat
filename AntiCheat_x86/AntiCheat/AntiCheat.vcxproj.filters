@@ -60,6 +60,15 @@
     <ClCompile Include="Splash2.cpp">
       <Filter>소스 파일\Splash</Filter>
     </ClCompile>
+    <ClCompile Include="Detect_CRDP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Self_Debug.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Detect_NtSIT.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aclass.h">

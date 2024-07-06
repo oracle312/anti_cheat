@@ -1,13 +1,5 @@
 #include "MainH.h"
 
-void BeingDebugged()
-{
-	//if (IsDebuggerPresent())
-	//	MessageBox(NULL, "디버깅감지 !! [BD]", "BD", MB_OK);
-	if (GdaoceochgorhrocnvlbxdalfTTREQIO())
-		MessageBox(NULL, "디버깅감지 !! [BD]", "BD", MB_OK);
-}
-
 DWORD __declspec(naked) GdaoceochgorhrocnvlbxdalfTTREQIO()
 {
 	__asm
@@ -21,6 +13,14 @@ DWORD __declspec(naked) GdaoceochgorhrocnvlbxdalfTTREQIO()
 		pop ecx
 		retn
 	}
+}
+
+void BeingDebugged()
+{
+	//if (IsDebuggerPresent())
+	//	MessageBox(NULL, "디버깅감지 !! [BD]", "BD", MB_OK);
+	if (GdaoceochgorhrocnvlbxdalfTTREQIO())
+		MessageBox(NULL, "디버깅감지 !! [BD]", "BD", MB_OK);
 }
 
 

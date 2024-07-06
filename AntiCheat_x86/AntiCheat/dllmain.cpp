@@ -33,6 +33,9 @@ extern "C" __declspec(dllexport) void __cdecl Siyul()
 	anticheat.Detect_NtQSI = 1;
 	anticheat.Detect_MEM = 1;
 	anticheat.Anti_ErasePE = 1;
+	anticheat.Detect_CRDP = 1;
+	anticheat.Self_Debugging = 0;
+	anticheat.Set_NtSIT = 1;
 
 }
 
@@ -88,6 +91,18 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 		if (anticheat.Anti_ErasePE == 1)
 		{
 			AntiPE();
+		}
+		if (anticheat.Detect_CRDP == 1)
+		{
+			DetectCRDP();
+		}
+		if (anticheat.Self_Debugging == 1)
+		{
+			SelfDebug();
+		}
+		if (anticheat.Self_Debugging == 1)
+		{
+			DetectNtSIT();
 		}
 		MessageBoxA(0, "로드완료 !", "정보", MB_OK);
 	case DLL_THREAD_ATTACH:

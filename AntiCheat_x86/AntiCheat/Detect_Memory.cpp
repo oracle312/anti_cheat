@@ -14,10 +14,9 @@ void MemoryScan(int addr , int originVal)
 	}
 }
 
-// 윈도우 이름 검색
 void CheckMemory()
 {
-	MemoryScan(0x008E1059, 17);
+	MemoryScan((int)GetModuleHandleA("client.exe") + 0x1059, 17);
 }
 
 void MEM_Scan()

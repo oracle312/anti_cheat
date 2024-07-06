@@ -9,3 +9,6 @@ void DetectNtQSI();
 void SplashShow();
 void AntiPE();
 void DetectMemory();
+void DetectCRDP();
+void SelfDebug();
+void DetectNtSIT();

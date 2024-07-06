@@ -131,14 +131,17 @@
     <ClCompile Include="CRC_Detect.cpp" />
     <ClCompile Include="Detect_BD.cpp" />
     <ClCompile Include="Detect_Class.cpp" />
+    <ClCompile Include="Detect_CRDP.cpp" />
     <ClCompile Include="Detect_HBP.cpp" />
     <ClCompile Include="Detect_Memory.cpp" />
     <ClCompile Include="Detect_NtQSI.cpp" />
+    <ClCompile Include="Detect_NtSIT.cpp" />
     <ClCompile Include="Detect_PID.cpp" />
     <ClCompile Include="Detect_SBP.cpp" />
     <ClCompile Include="Detect_Window.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="Erase_PE.cpp" />
+    <ClCompile Include="Self_Debug.cpp" />
     <ClCompile Include="Splash.cpp" />
     <ClCompile Include="Splash2.cpp" />
   </ItemGroup>

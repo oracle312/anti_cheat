@@ -14,6 +14,9 @@ public:
 	int Detect_NtQSI;
 	int Anti_ErasePE;
 	int Detect_MEM;
+	int Detect_CRDP;
+	int Self_Debugging;
+	int Set_NtSIT;
 
 	long CRC_MainEXE;
 
